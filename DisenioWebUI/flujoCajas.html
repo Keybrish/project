@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flujo de Cjas</title>
+    <meta name="description" content="Posicionamiento y flujo del modelo de cajas.">
+    <style>
+        div{
+            background-color: rgb(238, 219, 174);
+            padding: 10px;
+            margin: 5px;
+            border: 5px groove rgb(198, 192, 180);
+            width: 200px;
+        }
+        #uno{
+            /* float: left; */
+            position: absolute;
+            left: 100px;
+            top: 50px;
+            background-image: url(Material/imagenes/atenea160x196.jpg);
+            height: 196px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #dos{
+            /* float: right; */
+            position: absolute;
+            left: 300px;
+            top: 200px;
+            background-image: url(Material/imagenes/poseidon160x196.jpg);
+            height: 196px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #tres{
+            /* clear: both; */
+            position: absolute;
+            left: 500px;
+            top: 350px;
+            background-image: url(Material/imagenes/afrodita160x196.jpg);
+            height: 196px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #wrapper{
+            position: relative;
+            width: 750px;
+            height: 660px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+    <div id="uno">Caja Uno</div>
+    <div id="dos">Caja Dos</div>
+    <div id="tres">Caja Tres</div>
+    </div>
+</body>
+</html>
